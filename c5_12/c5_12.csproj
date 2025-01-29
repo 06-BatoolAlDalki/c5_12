@@ -67,11 +67,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="batool\addBook.aspx" />
+    <Content Include="batool\searchEdit.aspx" />
+    <Content Include="batool\showbooks.aspx" />
+    <Content Include="batool\users.aspx" />
     <Content Include="loginPage.aspx" />
     <Content Include="regestrationPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="batool\addBook.aspx.cs">
+      <DependentUpon>addBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="batool\addBook.aspx.designer.cs">
+      <DependentUpon>addBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="batool\searchEdit.aspx.cs">
+      <DependentUpon>searchEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="batool\searchEdit.aspx.designer.cs">
+      <DependentUpon>searchEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="batool\showbooks.aspx.cs">
+      <DependentUpon>showbooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="batool\showbooks.aspx.designer.cs">
+      <DependentUpon>showbooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="batool\users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="batool\users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
     <Compile Include="loginPage.aspx.cs">
       <DependentUpon>loginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
